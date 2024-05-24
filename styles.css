@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  margin: 20px auto;
+  display: grid;
+  place-items: center;
+  padding: 4px;
+  border: hsla(305, 83%, 14%, 0.226);
+  flex-direction: column;
+  box-shadow: rgb(255, 208, 0);
+}
+
+#color-box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(221, 111, 172);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 2rem;
+}
+#change-color-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(255, 208, 0);
+  font: bold;
+  border-radius: 2rem;
+}
+
+#container {
+  text-align: center;
+  margin-top: 50px;
+  color: blueviolet;
+  font: bolder;
+}
